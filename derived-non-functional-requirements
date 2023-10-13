@@ -1,0 +1,40 @@
+Identify Happy Path (update requirements accordingly): Our location is perfect for 100 guests, they all show up at 7:00, we have enough ingredients to make enough pancakes so that everyone gets one serving of pancakes, and we get them out on time, everyone leaves at 8:00, we clean the location, and everyone gets paid.
+Identify Alternate Flow Paths (update requirements accordingly):
+a.	Our calculated brand of an ingredient or multiple ingredients is sold out and we have to get a more expensive brand.
+b.	A chef or multiple chefs show up late.
+c.	We run out of ingredients.
+d.	Less than or more than 100 people show up.
+e.	Guests arrive late and the food is getting cold.
+f.	Guests do not leave on time and people are working overtime.
+Identify Unknowns and Clarifications for the customer to resolve prior to final planning:
+a.	Are there any toppings for these pancakes?
+b.	Will there be syrup?
+c.	Will there be drinks?
+d.	Will people be able to get more than one serving?
+e.	Do any guests have allergies?
+Identify Risk and Mitigation plans (update requirements accordingly):
+a.	Risk: We run out of ingredients
+a.	Mitigation: Buy more than we calculate we need
+b.	Risk: We have to buy a more expensive brand of ingredient
+a.	Mitigation: Have room in the budget for extra, unexpected costs
+c.	Risk: A chef or chefs show up late
+a.	Mitigation: Delegate extra work to the staff you have
+What is the cost (of ingredients, of equipment, of labor, etc) (you could extend the scaled recipe program to calculate the food costs): $1857.00 is a generous estimate for the food costs, if a lot of ingredients left over, since the program does not take into account, for example, how many eggs are in a carton or how many cups are in a gallon of milk, but this is the maximum amount you should expect to spend, using Walmart Great Value ingredients. I would expect total costs to be maybe around $2500 or $3000 on the high-end.
+Develop a project plan with time estimates and assignees (must show dependencies found earlier plus any as a result of assignee):
+a.	09/24/2023, 9:30: Find recipe, number of guests, calculate needed ingredients
+b.	09/24/2023, 10:00: Hire staff
+c.	09/29/2023, 10:00: Plan specific brands, calculate cost of ingredients, and chef pay.
+d.	09/29/2023, 11:00: Calculate prep time based on number of chefs.
+e.	09/29/2023, 12:30: Schedule a date and time in the Millenium Center.
+f.	09/30/2023, 8:00: Send email invites.
+g.	09/30/2023, 8:15: Inform staff of date and time and when to show up.
+h.	09/30/2023, 9:30: Go to store and purchase ingredients.
+i.	10/14/2023, 5:00: Get to location
+j.	10/14/2023, 5:30: Chefs have all arrived, start cooking
+k.	10/14/2023, 7:00: Guests arrive
+l.	10/14/2023, 7:05: Start serving pancakes
+m.	10/14/2023, 8:00: Guests leave
+n.	10/14/2023, 8:10: Clean location
+o.	10/15/2023, 8:00: Pay staff
+Do a walk through of the project plan (a kind of pantomime) to see what is missing: It is missing what is happening while the guests are eating and missing some risks.
+Do a post mortem: I believe many of the potential risks have been accounted for and we are prepared for them, though more thought needs to be put into what is happening while the guests are eating and the problems that could happen then. But overall, I think this would be mostly successful.

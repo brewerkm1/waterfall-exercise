@@ -17,6 +17,7 @@ internal class Program
                 } while (servings < 0);
 
                 ScaledIngredients(servings);
+                ScaledCost(servings);
             }
             catch (Exception e) { Console.WriteLine("(Whole numbers only)"); }
         }
@@ -34,4 +35,21 @@ internal class Program
 
         Console.WriteLine($"\n---Ingredients ADJUSTED---\nFlour: {flour*multiplier} cup(s)\nBaking Powder: {bakingPowder*multiplier} teaspoon(s)\nSugar: {sugar * multiplier} tablespoon(s)\nSalt: { salt* multiplier} teaspoon(s)\nMilk: {milk * multiplier} cup(s)\nButter: {butter * multiplier} tablespoon(s)\nEggs: { egg* multiplier}\n");
     }
+
+    public static void ScaledCost(int multiplier)
+    {
+        // prices come from walmart.com
+
+        decimal flour = 2.34m;
+        decimal bakingPowder = 3.24m;
+        decimal sugar = 3.24m;
+        decimal salt = 0.72m;
+        decimal milk = 3.33m;
+        decimal butter = 3.78m;
+        decimal egg = 1.92m;
+        decimal total = (flour + bakingPowder + sugar + salt + milk + butter + egg)* multiplier;
+
+        Console.WriteLine($"\n\n---Cost ADJUSTED---\nFlour: ${flour * multiplier}\nBaking Powder: ${bakingPowder * multiplier}\nSugar: ${sugar * multiplier}\nSalt: ${salt * multiplier} \nMilk: ${milk * multiplier}\nButter: ${butter * multiplier} \nEggs: ${egg * multiplier}\nTOTAL: ${total}");
+
+    } 
 }
